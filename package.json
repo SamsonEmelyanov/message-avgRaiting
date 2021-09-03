@@ -1,0 +1,23 @@
+{
+  "name": "express-app",
+  "version": "1.0.0",
+  "description": "Simple express manual",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "js.code.ua",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.0",
+    "http-status-codes": "^1.4.0",
+    "lodash": "^4.17.15",
+    "mongodb": "^3.2.6",
+    "mongoose": "^5.5.12",
+    "require-all": "^3.0.0",
+    "validator": "^12.0.0",
+    "yarn": "^1.22.11"
+  }
+}
