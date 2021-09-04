@@ -58,4 +58,4 @@ Request body:
 Restrictions: 
 - Posted rating must be between 1 and 10 score
 
-DELETE: localhost:3000/message/61326b35251eef06ddb949b9 - delete customer with ID 61326b35251eef06ddb949b9
+DELETE: localhost:3000/message/61326b35251eef06ddb949b9 - delete message with ID 61326b35251eef06ddb949b9

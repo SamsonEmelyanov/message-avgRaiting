@@ -44,9 +44,9 @@ class MessageValidate {
             throw ValidationError('ratings', '"payload.ratings" is required!');
         }
 
-        if (payload.ratings && !_.isNumber(payload.ratings))
+        if (payload.ratings && !_.isNumber(payload.ratings) || !_.isInteger(payload.ratings))
           {
-            throw ValidationError('ratings', '"payload.ratings" must be a Number!');
+            throw ValidationError('ratings', '"payload.ratings" must be an Integer Number!');
         }
 
         if(payload.ratings<=0 || payload.ratings>10){

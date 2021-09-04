@@ -15,7 +15,7 @@ try {
     const actions = inject(__dirname + '/actions');
     const models = inject(__dirname + '/models');
 
-    mongoose.connect('mongodb+srv://<user>:<password>@cluster0.fcaim.mongodb.net/<dbname>?retryWrites=true&w=majority', {useNewUrlParser: true});
+    mongoose.connect('mongodb+srv://samnTN:drvFI29@885@cluster0.fcaim.mongodb.net/Cluster0?retryWrites=true&w=majority', {useNewUrlParser: true});
 
     const db = mongoose.connection;
 
