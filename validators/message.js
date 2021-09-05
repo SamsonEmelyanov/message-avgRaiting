@@ -62,7 +62,7 @@ class MessageValidate {
     }
 
     update(_id, payload) {
-        if(payload.ratings){
+        if(payload.ratings || payload.avgRating){
             throw ValidationError('ratings', 'You cannot change the ratings of the posted message!');
         }
     }
